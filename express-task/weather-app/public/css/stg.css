@@ -1,0 +1,95 @@
+.main a {
+  text-decoration: none;
+  padding: 20px;
+  font-size: 25px;
+  color: teal;
+}
+.main a:hover {
+  color: peru;
+}
+
+.main1 {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: flex-start;
+  color: tomato;
+  font-size: 25px;
+  box-shadow: 2px 2px 5px 5px grey;
+  margin: 20px;
+}
+.main1 img {
+  height: 50px;
+  width: 50px;
+}
+.menu {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  margin: 20px;
+}
+.content input,
+button {
+  padding: 8px;
+  margin: 0 10px;
+  border: 0px;
+  outline: 0px;
+}
+.content button {
+  background-color: cadetblue;
+  color: black;
+  box-shadow: 1px 1px 5px 5px rgb(146, 167, 179);
+}
+input {
+  box-shadow: 1px 1px 5px 5px rgb(146, 167, 179);
+}
+button:hover {
+  color: brown;
+}
+form {
+  padding-top: 20px;
+}
+.body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("/img/bg6.jpg");
+  flex-direction: column;
+  border-radius: 40px;
+  width: 50%;
+  margin: auto auto;
+}
+.m1,
+.m2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.m2 {
+  flex-direction: column;
+  margin: 10px;
+  text-align: left;
+}
+.m2 div {
+  padding: 10px;
+}
+.about,
+.help {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.about img,
+.help img {
+  height: 150px;
+  width: 150px;
+}
